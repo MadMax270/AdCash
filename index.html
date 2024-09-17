@@ -3,36 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Dogs App</title>
     <style>
-        body {
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-        }
-        .button {
-            padding: 10px 20px;
-            margin: 20px;
-            border: none;
+        /* Стили для заголовка и кнопок */
+        header {
             background-color: #333;
             color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
             cursor: pointer;
-            border-radius: 5px;
+        }
+        /* Стили для навигационной панели */
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Page 1</h1>
-        <button class="button" onclick="window.location.href='page2.html'">Go to Page 2</button>
-    </div>
+    <header>
+        <h1>Dogs</h1>
+        <p>Meme-stickers are coming</p>
+        <button>Connect wallet</button>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Leaderboard</a>
+        <a href="#">Claim hints</a>
+        <a href="#">Friends</a>
+    </nav>
 </body>
 </html>
