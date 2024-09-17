@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привет</title>
+    <title>Page 1</title>
     <style>
         body {
             background-color: black;
@@ -15,9 +15,24 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
+        .container {
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
-    <h1>Привет</h1>
+    <div class="container">
+        <h1>Page 1</h1>
+        <button class="button" onclick="window.location.href='page2.html'">Go to Page 2</button>
+    </div>
 </body>
 </html>
