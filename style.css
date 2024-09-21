@@ -12,6 +12,8 @@ body {
 }
 
 .container {
+    width: 50%; /* Установите ширину контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
     text-align: center;
 }
 
@@ -20,7 +22,7 @@ body {
     font-size: 2em;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 10px; /* Перемещено вправо */
     margin: 0;
     padding: 10px; /* Внутренние отступы для рамки */
     background-color: gray; /* Серый фон */
